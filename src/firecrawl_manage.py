@@ -4,7 +4,7 @@ import time
 
 class FirecrawlAPP:
     def __init__(self):
-        self.app = FirecrawlApp(api_key="fc-5e038ceec6064ccb9cd916e0cac4d923")
+        self.app = FirecrawlApp(api_key="fc-07228bc346f840f69bcbb36077773708")
         
     def scrape_main_content(self, menu):
         '''

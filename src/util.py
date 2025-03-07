@@ -95,7 +95,7 @@ class Util:
 
     # 디렉토리 생성 함수
     @staticmethod
-    def create_folders_and_files(menu_data, base_path=f"rag_data {datetime.now()}"):
+    def create_folders_and_files(menu_data, base_path=f"rag_data {datetime.now().strftime('%Y-%m-%d %H-%M-%S')}"):
         '''
         계층별 폴더 생성 및 파일(html, markdown, url) 생성
         :param menu_data: match_menus_and_scraped_data()의 결과
